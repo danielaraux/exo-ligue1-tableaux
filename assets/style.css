@@ -1,3 +1,7 @@
+body {
+  background-color: #161616;
+}
+
 td > img {
   height: 30px;
   width: 30px;
@@ -41,8 +45,31 @@ td > img {
 
 .cat-sizes {
   font-size: 0.9em;
-  border: 2px solid red;
   text-align: center;
+}
+
+.heure-chrono {
+  font-size: 0.8em;
+}
+
+.bg-noir-elements {
+  background-color: #262624;
+}
+
+.badge {
+  background-color: #161616;
+}
+
+@media (max-width: 414px) {
+  .div-chrono {
+    display: none;
+  }
+}
+
+@media (max-width: 414px) {
+  .maindiv {
+    width: 100vw;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
