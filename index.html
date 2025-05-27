@@ -10,32 +10,341 @@
     <!-- Pour ajouter le bootstrap.css en NPM -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
 
 </head>
 
 
-<body>
+<body class="bg-dark text-light">
 
-    <!-- Pour ajouter le bootstrap.js en NPM -->
-    <style src="node_modules/bootstrap/dist/js/bootstrap.js"></style>
-
-
-    <header>
-
-
+    <header class="w-75 mx-auto">
+        <img class="w-100" src="assets/img/header.png" alt="Banniere de la Ligue 1 McDonalds">
     </header>
 
+    <main class="w-75 border border-5 border-danger mx-auto">
+
+
+        <div class="row m-0">
+            <div class="col-8 border border-2 border-primary">
+
+                <div class="general-saison">
+                    <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+                        <button type="button" class="btn btn-primary">1</button>
+
+                        <div class="btn-group" role="group">
+                            <button type="button" class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Général
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                                <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                            </ul>
+                            <button type="button" class="btn btn-primary">2</button>
+                        </div>
+                    </div>
+
+
+                    <p>Saison 24/25 <i class="bi bi-check-circle"></i> <i class="bi bi-check-circle"></i></p>
+
+                </div>
+
+
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col border-border-2 border-success">Club</th>
+                            <th scope="col-3"></th>
+                            <th scope="col">J.</th>
+                            <th scope="col">G-N-P</th>
+                            <th scope="col">But +</th>
+                            <th scope="col">But -</th>
+                            <th scope="col">Diff</th>
+                            <th scope="col">Forme</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        <!-- PSG 1 -->
+                        <tr>
+                            <th scope="row text-center">1</th>
+                            <td class="border border-2 border-warning "><img src="assets/img/logo-psg.png"
+                                    alt="logo du psg"></td>
+                            <td class="fw-bold">PSG</td>
+                            <td class="fw-bold">84</td>
+                            <td>34</td>
+                            <td>26-6-2</td>
+                            <td>92</td>
+                            <td>35</td>
+                            <td>57</td>
+                        </tr>
+
+                        <!-- OM 2 -->
+                        <tr>
+                            <th scope="row text-center">2</th>
+                            <td class="border border-2 border-warning "><img src="assets/img/logo-om.png"
+                                    alt="logo de l'om"></td>
+                            <td class="fw-bold">OM</td>
+                            <td class="fw-bold">65</td>
+                            <td>34</td>
+                            <td>20-5-9</td>
+                            <td>74</td>
+                            <td>47</td>
+                            <td>27</td>
+                        </tr>
+
+                        <!-- AS MONACO 3 -->
+                        <tr>
+                            <th scope="row text-center">3</th>
+                            <td class="border border-2 border-warning "><img src="assets/img/logo-asm.png"
+                                    alt="logo de l'as monaco"></td>
+                            <td class="fw-bold">AS Monaco</td>
+                            <td class="fw-bold">61</td>
+                            <td>34</td>
+                            <td>18-7-9</td>
+                            <td>63</td>
+                            <td>41</td>
+                            <td>22</td>
+                        </tr>
+
+                        <!-- OGC Nice 4 -->
+                        <tr>
+                            <th scope="row text-center">4</th>
+                            <td class="border border-2 border-warning "><img src="assets/img/logo-ogc-nice.png"
+                                    alt="logo de l'ogc nice"></td>
+                            <td class="fw-bold">OGC Nice</td>
+                            <td class="fw-bold">60</td>
+                            <td>34</td>
+                            <td>17-9-8</td>
+                            <td>66</td>
+                            <td>41</td>
+                            <td>25</td>
+                        </tr>
+
+                        <!-- LOSC 5 -->
+                        <tr>
+                            <th scope="row text-center">5</th>
+                            <td class="border border-2 border-warning "><img src="assets/img/logo-losc.png"
+                                    alt="logo du losc"></td>
+                            <td class="fw-bold">LOSC</td>
+                            <td class="fw-bold">60</td>
+                            <td>34</td>
+                            <td>17-9-8</td>
+                            <td>52</td>
+                            <td>36</td>
+                            <td>16</td>
+                        </tr>
+
+                        <!-- OL 6 -->
+                        <tr>
+                            <th scope="row text-center">6</th>
+                            <td class="border border-2 border-warning "><img src="assets/img/logo-ol.png"
+                                    alt="logo de l'ol"></td>
+                            <td class="fw-bold">OL</td>
+                            <td class="fw-bold">57</td>
+                            <td>34</td>
+                            <td>17-6-11</td>
+                            <td>65</td>
+                            <td>46</td>
+                            <td>19</td>
+                        </tr>
+
+                        <!-- Strasbourg 7 -->
+                        <tr>
+                            <th scope="row text-center">7</th>
+                            <td class="border border-2 border-warning "><img src="assets/img/logo-strasbourg.png"
+                                    alt="logo de strasbourg"></td>
+                            <td class="fw-bold">Strasbourg</td>
+                            <td class="fw-bold">57</td>
+                            <td>34</td>
+                            <td>16-9-9</td>
+                            <td>56</td>
+                            <td>44</td>
+                            <td>12</td>
+                        </tr>
+
+                        <!-- RC Lens 8 -->
+                        <tr>
+                            <th scope="row text-center">8</th>
+                            <td class="border border-2 border-warning "><img src="assets/img/logo-rc-lens.png"
+                                    alt="logo du rc lens"></td>
+                            <td class="fw-bold">RC Lens</td>
+                            <td class="fw-bold">52</td>
+                            <td>34</td>
+                            <td>15-7-12</td>
+                            <td>42</td>
+                            <td>39</td>
+                            <td>3</td>
+                        </tr>
+
+                        <!-- Brest 9 -->
+                        <tr>
+                            <th scope="row text-center">9</th>
+                            <td class="border border-2 border-warning "><img src="assets/img/logo-brest.png"
+                                    alt="logo de brest"></td>
+                            <td class="fw-bold">Brest</td>
+                            <td class="fw-bold">50</td>
+                            <td>34</td>
+                            <td>15-5-14</td>
+                            <td>52</td>
+                            <td>59</td>
+                            <td>-7</td>
+                        </tr>
+
+                        <!-- Toulouse FC 10 -->
+                        <tr>
+                            <th scope="row text-center">10</th>
+                            <td class="border border-2 border-warning "><img src="assets/img/logo-tfc.png"
+                                    alt="logo du toulouse fc"></td>
+                            <td class="fw-bold">Toulouse FC</td>
+                            <td class="fw-bold">42</td>
+                            <td>34</td>
+                            <td>11-9-14</td>
+                            <td>44</td>
+                            <td>43</td>
+                            <td>1</td>
+                        </tr>
+
+                        <!-- AJ Auxerre 11 -->
+                        <tr>
+                            <th scope="row text-center">11</th>
+                            <td class="border border-2 border-warning "><img src="assets/img/logo-aj-auxerre.png"
+                                    alt="logo de l'aj auxerre"></td>
+                            <td class="fw-bold">AJ Auxerre</td>
+                            <td class="fw-bold">42</td>
+                            <td>34</td>
+                            <td>11-9-14</td>
+                            <td>48</td>
+                            <td>51</td>
+                            <td>-3</td>
+                        </tr>
+
+                        <!-- Rennes 12 -->
+                        <tr>
+                            <th scope="row text-center">12</th>
+                            <td class="border border-2 border-warning "><img src="assets/img/logo-rennes.png"
+                                    alt="logo de rennes"></td>
+                            <td class="fw-bold">Rennes</td>
+                            <td class="fw-bold">41</td>
+                            <td>34</td>
+                            <td>13-2-19</td>
+                            <td>51</td>
+                            <td>50</td>
+                            <td>1</td>
+                        </tr>
+
+                        <!-- FC Nantes 13 -->
+                        <tr>
+                            <th scope="row text-center">13</th>
+                            <td class="border border-2 border-warning "><img src="assets/img/logo-fc-nantes.png"
+                                    alt="logo du fc nantes"></td>
+                            <td class="fw-bold">FC Nantes</td>
+                            <td class="fw-bold">36</td>
+                            <td>34</td>
+                            <td>8-12-14</td>
+                            <td>39</td>
+                            <td>52</td>
+                            <td>-13</td>
+                        </tr>
+
+                        <!-- Angers SCO 14 -->
+                        <tr>
+                            <th scope="row text-center">14</th>
+                            <td class="border border-2 border-warning "><img src="assets/img/logo-angers.png"
+                                    alt="logo du angers sco"></td>
+                            <td class="fw-bold">Angers SCO</td>
+                            <td class="fw-bold">36</td>
+                            <td>34</td>
+                            <td>10-6-18</td>
+                            <td>32</td>
+                            <td>53</td>
+                            <td>-21</td>
+                        </tr>
+
+                        <!-- Havre AC 15 -->
+                        <tr>
+                            <th scope="row text-center">15</th>
+                            <td class="border border-2 border-warning "><img src="assets/img/logo-hac.png"
+                                    alt="logo du havre ac"></td>
+                            <td class="fw-bold">Havre AC</td>
+                            <td class="fw-bold">34</td>
+                            <td>34</td>
+                            <td>10-4-20</td>
+                            <td>40</td>
+                            <td>71</td>
+                            <td>-31</td>
+                        </tr>
+
+                        <!-- Reims 16 -->
+                        <tr>
+                            <th scope="row text-center">16</th>
+                            <td class="border border-2 border-warning "><img src="assets/img/logo-reims.png"
+                                    alt="logo de reims"></td>
+                            <td class="fw-bold">Reims</td>
+                            <td class="fw-bold">33</td>
+                            <td>34</td>
+                            <td>8-9-17</td>
+                            <td>33</td>
+                            <td>47</td>
+                            <td>-14</td>
+                        </tr>
+
+                        <!-- ASSE 17 -->
+                        <tr>
+                            <th scope="row text-center">17</th>
+                            <td class="border border-2 border-warning "><img src="assets/img/logo-asse.png"
+                                    alt="logo de l'asse"></td>
+                            <td class="fw-bold">ASSE</td>
+                            <td class="fw-bold">30</td>
+                            <td>34</td>
+                            <td>8-6-20</td>
+                            <td>39</td>
+                            <td>77</td>
+                            <td>-38</td>
+                        </tr>
+
+                        <!-- Montpellier 18 -->
+                        <tr>
+                            <th scope="row text-center">18</th>
+                            <td class="border border-2 border-warning "><img src="assets/img/logo-montpellier.png"
+                                    alt="logo de montpellier"></td>
+                            <td class="fw-bold">Montpellier</td>
+                            <td class="fw-bold">16</td>
+                            <td>34</td>
+                            <td>4-4-26</td>
+                            <td>23</td>
+                            <td>79</td>
+                            <td>-56</td>
+                        </tr>
+                    </tbody>
+                </table>
 
 
 
-    <main>
 
+
+
+            </div>
+
+            <div class="col-4 border border-3 border-warning">
+                <p class="text-uppercase"><b>chrono</b></p>
+            </div>
+
+
+
+
+
+
+
+        </div>
 
 
     </main>
 
 
-
+    <!-- Pour ajouter le bootstrap.js en NPM -->
+    <style src="node_modules/bootstrap/dist/js/bootstrap.js"></style>
 </body>
 
 </html>
