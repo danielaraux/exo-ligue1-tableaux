@@ -74,3 +74,9 @@ td>img {
         width: 100vw;
     }
 }
+
+.general-saison {
+    @media (max-width:414px) {
+        display: none;
+    }
+}

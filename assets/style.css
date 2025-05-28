@@ -72,4 +72,10 @@ td > img {
   }
 }
 
+@media (max-width: 414px) {
+  .general-saison {
+    display: none;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
