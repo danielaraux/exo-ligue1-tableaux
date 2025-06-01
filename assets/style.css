@@ -24,15 +24,22 @@ td > img {
 }
 
 .nice-bordures {
-  border: 2px solid #8907ad;
+  border-top: 2px solid #8907ad;
+  border-bottom: 2px solid #8907ad;
 }
 
 .ol-bordures {
-  border: 2px solid #ff6900;
+  border-top: 2px solid #ff6900;
+  border-bottom: 2px solid #ff6900;
 }
 
 .reims-bordures {
-  border: 2px solid #fe3300;
+  border-top: 2px solid #fe3300;
+  border-bottom: 2px solid #fe3300;
+}
+
+.forme {
+  white-space: nowrap;
 }
 
 .forme > i {
@@ -67,15 +74,46 @@ td > img {
 }
 
 @media (max-width: 414px) {
-  .maindiv {
-    width: 100vw;
+  .divbtn {
+    display: none;
   }
 }
 
 @media (max-width: 414px) {
-  .general-saison {
+  .divdesktop {
     display: none;
   }
+}
+
+.general {
+  padding: 0.6em 5em 0 5em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.btn-general {
+  background-color: #ff7fde;
+  color: black;
+  margin: 0.3em;
+}
+
+.btn-group-general {
+  background-color: #262624;
+}
+
+@media (min-width: 415px) {
+  main {
+    width: 75vw;
+  }
+}
+@media (max-width: 414px) {
+  main {
+    width: 100vw;
+  }
+}
+
+.scroll-table {
+  overflow-x: scroll;
 }
 
 /*# sourceMappingURL=style.css.map */
