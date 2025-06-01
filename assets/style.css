@@ -1,0 +1,119 @@
+body {
+  background-color: #161616;
+}
+
+td > img {
+  height: 30px;
+  width: 30px;
+}
+
+.little-scale {
+  width: 4em;
+}
+
+.bi-dash-circle-fill {
+  color: gray;
+}
+
+.bi-check-circle-fill {
+  color: green;
+}
+
+.bi-x-circle-fill {
+  color: red;
+}
+
+.nice-bordures {
+  border-top: 2px solid #8907ad;
+  border-bottom: 2px solid #8907ad;
+}
+
+.ol-bordures {
+  border-top: 2px solid #ff6900;
+  border-bottom: 2px solid #ff6900;
+}
+
+.reims-bordures {
+  border-top: 2px solid #fe3300;
+  border-bottom: 2px solid #fe3300;
+}
+
+.forme {
+  white-space: nowrap;
+}
+
+.forme > i {
+  margin: 2px;
+}
+
+.icons-size {
+  font-size: 0.8em;
+}
+
+.cat-sizes {
+  font-size: 0.9em;
+  text-align: center;
+}
+
+.heure-chrono {
+  font-size: 0.8em;
+}
+
+.bg-noir-elements {
+  background-color: #262624;
+}
+
+.badge {
+  background-color: #161616;
+}
+
+@media (max-width: 414px) {
+  .div-chrono {
+    display: none;
+  }
+}
+
+@media (max-width: 414px) {
+  .divbtn {
+    display: none;
+  }
+}
+
+@media (max-width: 414px) {
+  .divdesktop {
+    display: none;
+  }
+}
+
+.general {
+  padding: 0.6em 5em 0 5em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.btn-general {
+  background-color: #ff7fde;
+  color: black;
+  margin: 0.3em;
+}
+
+.btn-group-general {
+  background-color: #262624;
+}
+
+@media (min-width: 415px) {
+  main {
+    width: 75vw;
+  }
+}
+@media (max-width: 414px) {
+  main {
+    width: 100vw;
+  }
+}
+
+.scroll-table {
+  overflow-x: scroll;
+}
+
+/*# sourceMappingURL=style.css.map */
